@@ -71,12 +71,9 @@ function formatResults(arrayOfParks) {
     console.log(arrayOfParks.data);
     // return "<p>testing</p>";
     return arrayOfParks.data.map(park => `
-    <p><span class="park-name">${park.name}</span>
-    <br>
-    <span class="park-designation">${park.designation}</span>
-    <br>
-    <span class="park-description">${park.description}</span>
-    <br>
+    <p class="park-name">${park.name}</p>
+    <p class="park-designation">${park.designation}</p>
+    <p class="park-description">${park.description}</p>
     <a href="${park.url}" target="_blank">${park.url}</a>
     `).join("<hr>");
 }
