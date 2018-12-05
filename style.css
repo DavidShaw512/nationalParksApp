@@ -3,10 +3,24 @@
 }
 
 body {
-
+    font-family: 'Open Sans', sans-serif;
 }
 
 .container {
     margin: 0 auto;
     max-width: 600px;
 }
+
+.park-name {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: brown;
+}
+
+.park-designation {
+    font-style: italic;
+    color: darkgrey;
+    margin-bottom: 5px;
+}
+
